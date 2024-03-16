@@ -40,4 +40,4 @@ Front-End:
 *React
 
 ## Autor
-* Guillermo Vega - [Github](https://github.com/Korchea).
+* Guillermo Vega - [Linkedin](www.linkedin.com/in/guillermo-vega-hernandez).
