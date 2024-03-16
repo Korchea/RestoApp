@@ -41,3 +41,7 @@ Front-End:
 
 ## Autor
 * Guillermo Vega - [Github](https://github.com/Korchea).
+
+
+
+para arrancar mysql 'service mysql start', para ejecutar un script .sql 'cat script.sql | mysql -hlocalhost -uroot -p'
