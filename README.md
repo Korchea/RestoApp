@@ -45,3 +45,5 @@ Front-End:
 
 
 para arrancar mysql 'service mysql start', para ejecutar un script .sql 'cat script.sql | mysql -hlocalhost -uroot -p'
+
+Primeros mockups https://www.canva.com/design/DAF_3dNmllc/ZKFfN9HynuPTB61h0hoYEg/edit?utm_content=DAF_3dNmllc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
