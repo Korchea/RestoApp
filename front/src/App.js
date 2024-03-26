@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from './Components/MainPage';
+import './CSS/MainPage.css';
 
 
-// Definimos un componente funcional llamado "Contador"
 function App() {
 
   return (

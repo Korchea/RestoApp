@@ -1,13 +1,16 @@
-
-
 export default function MainPage() {
     return (
-        <div id="right-chat" style={{
-          backgroundImage: `url(/rhamely-3oc8c28wzZg-unsplash.jpg)`,
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover'
-        }}></div>
-            
-    )
-}
+      <div id="container">
+        <div id="logo">
+            <div id="centrado">
+                <div id="Resto"></div>
+                <div className="Card">
+                    <button>Cliente</button>
+                    <button>Personal</button>
+                </div>  
+            </div>
+          
+        </div>
+      </div>
+    );
+  }
