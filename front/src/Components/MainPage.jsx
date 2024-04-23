@@ -2,14 +2,15 @@ export default function MainPage() {
     return (
       <div id="container">
         <div id="logo">
-            <div id="centrado">
-                <div id="Resto"></div>
-                <div className="Card">
-                    <button>Cliente</button>
-                    <button>Personal</button>
+            <div className="centrado">
+                <div className="Resto"></div>
+                <div className="bloque">
+                  <div className="sub-bloque">
+                    <button className="boton">CLIENTE</button>
+                    <button className="boton">PERSONAL</button>
+                  </div>
                 </div>  
             </div>
-          
         </div>
       </div>
     );

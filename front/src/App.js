@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainPage from './Components/MainPage';
 import './CSS/MainPage.css';
+import PersonalLogin from './Components/PersonalLogin';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<MainPage />} />
+          <Route path='/personal' element={<PersonalLogin />} />
         </Routes>
       </BrowserRouter>
     </div>
