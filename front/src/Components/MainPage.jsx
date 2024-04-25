@@ -1,3 +1,5 @@
+import {  NavLink } from "react-router-dom"
+
 export default function MainPage() {
     return (
       <div id="container">
@@ -6,8 +8,12 @@ export default function MainPage() {
                 <div className="Resto"></div>
                 <div className="bloque">
                   <div className="sub-bloque">
-                    <button className="boton">CLIENTE</button>
-                    <button className="boton">PERSONAL</button>
+                    <NavLink to="cliente">
+                      <button className="boton">CLIENTE</button>
+                    </NavLink>
+                    <NavLink to="personal">
+                      <button className="boton">PERSONAL</button>
+                    </NavLink>
                   </div>
                 </div>  
             </div>
