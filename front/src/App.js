@@ -9,6 +9,10 @@ import PersonalLogin from './Components/PersonalLogin';
 import ClienteLogin from './Components/ClienteLogin';
 import Carta from './Components/Carta';
 import Ingredientes from './Components/Ingredientes';
+import Recetas from './Components/Recetas';
+import 'boxicons'
+import Info from './Components/Info';
+import Cliente from './Components/Cliente';
 
 
 function App() {
@@ -22,6 +26,9 @@ function App() {
           <Route path='/personal' element={<PersonalLogin />} />
           <Route path='/carta' element={<Carta />} />
           <Route path='/ingredientes' element={<Ingredientes />} />
+          <Route path='/recetas' element={<Recetas />} />
+          <Route path='/info' element={<Info />} />
+          <Route path='/clientes' element={<Cliente />} />
         </Routes>
       </BrowserRouter>
     </div>

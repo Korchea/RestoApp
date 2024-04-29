@@ -1,7 +1,6 @@
 export default function Carta() {
     return (
-        <div>
-            <header>header</header>
+        <>
             <div className="second">
                 <h1>CARTA</h1>
                 <div className="lista">
@@ -97,7 +96,6 @@ export default function Carta() {
                     </div>
                 </div>
             </div>
-            <footer className="foot">footer</footer>
-        </div>
+        </>
     );
 }
