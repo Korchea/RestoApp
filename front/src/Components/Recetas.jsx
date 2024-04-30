@@ -1,3 +1,4 @@
+import Receta from "./Receta";
 export default function Recetas() {
     return (
         <div>
@@ -12,28 +13,11 @@ export default function Recetas() {
                             <li>+</li>
                         </ul>
                     </div>
-                    <div className="receta">
-                        <h2>Fideos con tuco</h2>
-                        <ul>
-                            <li>Fideos</li>
-                            <li>Tuco</li>
-                        </ul>
-                    </div>
-                    <div className="receta">
-                        <h2>Chivito</h2>
-                        <ul>
-                            <li>Carne</li>
-                            <li>Huevo</li>
-                            <li>Pan</li>
-                        </ul>
-                    </div>
-                    <div className="receta">
-                        <h2>Hamburguesa</h2>
-                        <ul>
-                            <li>Hamburguesa</li>
-                            <li>Pan</li>
-                        </ul>
-                    </div>
+                    <Receta />
+                    <Receta />
+                    <Receta />
+                    <Receta />
+                    <Receta />
                 </div>
             </div>
             <footer className="foot">footer</footer>
