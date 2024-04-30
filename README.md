@@ -46,4 +46,12 @@ Front-End:
 
 para arrancar mysql 'service mysql start', para ejecutar un script .sql 'cat script.sql | mysql -hlocalhost -uroot -p'
 
-Primeros mockups https://www.canva.com/design/DAF_3dNmllc/ZKFfN9HynuPTB61h0hoYEg/edit?utm_content=DAF_3dNmllc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Mockups https://www.canva.com/design/DAF_3dNmllc/ZKFfN9HynuPTB61h0hoYEg/edit?utm_content=DAF_3dNmllc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+To-do:
+-Terminar el front provisorio
+-Arreglar la base de datos
+-Cargar datos en la base de datos y probarla
+-Integrar back con front
+-Detallar el front
+-Revisar todo y empezar de vuelta
