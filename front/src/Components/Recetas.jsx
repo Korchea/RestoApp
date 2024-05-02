@@ -1,8 +1,11 @@
 import Receta from "./Receta";
+import Header from "./Header";
+import Footer from "./Footer";
+
 export default function Recetas() {
     return (
-        <div>
-            <header>header</header>
+        <>
+            <Header />
             <div className="second">
                 <h1>RECETAS</h1>
                 <div className="lista">
@@ -20,7 +23,7 @@ export default function Recetas() {
                     <Receta />
                 </div>
             </div>
-            <footer className="foot">footer</footer>
-        </div>
+            <Footer />
+        </>
     );
 }
