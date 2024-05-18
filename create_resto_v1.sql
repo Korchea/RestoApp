@@ -1,12 +1,12 @@
 -- Datos de muestra para la tabla 'ingrediente'
-INSERT IGNORE INTO `RestoAppDB`.`ingrediente` (`nombre`, `cantidad`) VALUES
-('Harina', 10000),
-('Azúcar', 15000),
-('Sal', 5000),
-('Leche', 20000),
-('Huevos', 12),
-('Chocolate', 8000),
-('Aceite', 18000);
+INSERT IGNORE INTO `RestoAppDB`.`ingrediente` (`nombre`, `cantidad`, `unidad`) VALUES
+('Harina', 10000, 'g'),
+('Azúcar', 15000, 'g'),
+('Sal', 5000, 'g'),
+('Leche', 20000, 'ml'),
+('Huevos', 12, 'unidades'),
+('Chocolate', 8000, 'g'),
+('Aceite', 18000, 'ml');
 
 -- Datos de muestra para la tabla 'carta'
 INSERT IGNORE INTO `RestoAppDB`.`carta` (`id`) VALUES
